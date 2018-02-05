@@ -32,23 +32,20 @@ form{
   justify-content: space-between;
   font-size: 32rpx;
   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  margin: 0 20rpx;
 }
 .page-head{
   padding: 60rpx 50rpx 80rpx;
   text-align: center;
 }
 .page-head-title{
+  font-weight: bold;
   display: inline-block;
   padding: 0 40rpx 20rpx 40rpx;
-  font-size: 32rpx;
+  font-size: 40rpx;
   color: #BEBEBE;
 }
-.page-head-line{
-  margin: 0 auto;
-  width: 150rpx;
-  height: 2rpx;
-  background-color: #D8D8D8;
-}
+
 .page-head-desc{
   padding-top: 20rpx;
   color: #9B9B9B;
@@ -106,7 +103,7 @@ form{
 
 .page-section{
   width: 100%;
-  margin-bottom: 60rpx;
+  margin-bottom: 40rpx;
 }
 .page-section_center{
   display: flex;
@@ -119,6 +116,7 @@ form{
 .page-section-gap{
   box-sizing: border-box;
   padding: 0 30rpx;
+ 
 }
 .page-section-spacing{
   box-sizing: border-box;

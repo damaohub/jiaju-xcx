@@ -1,21 +1,5 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
+@import "../common/lib/weui.wxss";
+.page-list{margin-top: 30rpx}
+.weui-panel{  -webkit-box-shadow: 0px 1px 11px 2px rgba(42, 42, 42, 0.1);
+    box-shadow: 0px 1px 11px 2px rgba(42, 42, 42, 0.1);
+    border-top: 4px solid #60f46c;margin-top: 30rpx;}
