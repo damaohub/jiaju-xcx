@@ -13,7 +13,7 @@
                 <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
                   <view class="weui-panel weui-panel_access">
                       <view class="weui-panel__bd">
-                          <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                          <navigator url="../flow-detail/flow-detail" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                               <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                                    <image class="weui-media-box__thumb" src="../../images/test.png" />
                               </view>
@@ -26,7 +26,7 @@
                                   <text class="weui-media-box__desc">当前状态：半成品</text>
                               </view>
                           </navigator>
-                          <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                          <navigator url="../flow-detail/flow-detail" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                               <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                                   <image class="weui-media-box__thumb" src="{{icon60}}" />
                               </view>
@@ -46,7 +46,7 @@
 
                     <view class="weui-panel weui-panel_access">
                       <view class="weui-panel__bd">
-                          <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                          <navigator url="../flow-detail/flow-detail" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                               <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                                   <image class="weui-media-box__thumb" src="{{icon60}}" />
                               </view>
@@ -59,7 +59,7 @@
                                   <text class="weui-media-box__desc">当前状态：半成品</text>
                               </view>
                           </navigator>
-                          <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                          <navigator url="../flow-detail/flow-detail" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                               <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                                   <image class="weui-media-box__thumb" src="../../images/test.png" />
                               </view>

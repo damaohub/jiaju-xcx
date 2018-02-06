@@ -11,11 +11,44 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    phone:'',
+    password: '',
+    btnDisabled: true
+  },
+  bindPhoneInput: function(e){
+    this.setData({
+      phone: e.detail.value
+    });
+    if (this.data.phone && this.data.password){
+      this.setData({
+        btnDisabled: false
+      });
+    }else{
+      this.setData({
+        btnDisabled: true
+      });
+    }
   },
 
-
-
+  bindPasswordInput: function (e) {
+    this.setData({
+      password: e.detail.value
+    })
+    if (this.data.phone && this.data.password) {
+      this.setData({
+        btnDisabled: false
+      });
+    } else {
+      this.setData({
+        btnDisabled: true
+      });
+    }
+  },
+  bindlLogin: function(){
+    wx.navigateTo({
+      url: '../index/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

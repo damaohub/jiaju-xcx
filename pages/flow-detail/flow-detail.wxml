@@ -17,9 +17,61 @@
       <text class='weui-flex__item'>直径450*530</text>
     </view>
     <view class="weui-flex">
-      <text class='weui-flex__item first'>尺寸：</text>
-      <text class='weui-flex__item'>直径450*530</text>
+      <text class='weui-flex__item first'>材质：</text>
+      <text class='weui-flex__item'>实木框架，大理石台面</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>数量：</text>
+      <text class='weui-flex__item'>3</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>截止时间：</text>
+      <text class='weui-flex__item'>2018-03-12</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>上传附件：</text>
+      <view class='weui-flex__item'>
+        <button class="weui-btn mini-btn" type="primary" plain="true" size="mini">点击上传附件</button>
+        <text class="link" type="default" plain="true" size="mini">查看上传附件</text>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>前置条件：</text>
+      <view class='weui-flex__item'>
+          <view class="weui-cells weui-cells_after-title">
+            <checkbox-group bindchange="checkboxChange">
+                <label class="weui-cell weui-check__label" wx:for="{{checkboxItems}}" wx:key="value">
+                    <checkbox class="weui-check" value="{{item.value}}" checked="{{item.checked}}"/>
+
+                    <view class="weui-cell__hd weui-check__hd_in-checkbox">
+                        <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="{{!item.checked}}"></icon>
+                        <icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+                    </view>
+                    <view class="weui-cell__bd">{{item.name}}</view>
+                </label>
+            </checkbox-group>        
+        </view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>异常原因：</text>
+      <text class='weui-flex__item'>Proin malesuada ipsum ac convallis dignissim. Mauris quis tempus velit, ut gravida justo.</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>状态变更：</text>
+      <view class='weui-flex__item'>
+          <view class="weui-cell weui-cell_select">
+                <view class="weui-cell__bd">
+                    <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
+                        <view class="weui-select">{{accounts[accountIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+      </view>
     </view>
   </view>
   
+  <view class="btn-area">
+        <button type="primary" formType="submit">确定</button>    
+  </view>
 </view>

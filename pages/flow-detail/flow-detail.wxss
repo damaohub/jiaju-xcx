@@ -10,5 +10,10 @@
   flex-direction: column;
 }
 .weui-flex-col > .weui-flex__item{width: 100%;text-align: center;}
-.cells .weui-flex__item.first{text-align: right;flex: 1 0 auto;}
-.cells .weui-flex__item{flex: 3 0 auto;text-align: left;}
+.cells .weui-flex__item.first{text-align: right;flex: 1 0 30%;}
+.cells .weui-flex__item{flex: 3 0 70%;text-align: left; align-self:center;}
+.weui-select{border-right: 0;}
+.cells .weui-flex__item .mini-btn{margin-top: 20rpx;margin-bottom: 10rpx;}
+.link{color: blue;font-size: 30rpx;display: inline-block;line-height: 2.3;position: relative;left: 10px; }
+.cells .weui-cells::before,.cells .weui-cells::after,.cells .weui-cell:before{display: none;}
+.cells .weui-cells{background:transparent;}
