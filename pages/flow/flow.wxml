@@ -1,0 +1,73 @@
+<view class="page page-flow">
+  
+<view class="flow">
+
+  <view class="flow-item">
+    <view class="flow-item-tail"></view>
+    <view class="flow-item-content">
+    <view class="item-row">
+      <view class="horizon-line"></view> 
+      <navigator url="" class="item-title">启动</navigator>
+      <view class="circle-box">
+        <canvas class="circle" style="z-index: -99; width:50px; height:50px;" canvas-id="canvasCircle-1"></canvas>
+        <canvas class="circle" style="width:50px; height:50px;" canvas-id="canvasArcCir-1"></canvas>
+        <view class="precent">{{percent1+'%'}}</view>
+      </view>
+    </view>
+    <view class="time">截止时间：2018-02-06</view>
+    </view>
+  </view>
+  <view class="flow-item">
+    <view class="flow-item-tail"></view>
+    <view class="flow-item-content">
+    <view class="item-row">
+      <view class="horizon-line"></view> 
+      <navigator url="" class="item-title">实施</navigator>
+      <view class="circle-box">
+        <canvas class="circle" style="z-index: -99; width:50px; height:50px;" canvas-id="canvasCircle-2"></canvas>
+        <canvas class="circle" style="width:50px; height:50px;" canvas-id="canvasArcCir-2"></canvas>
+        <view class="precent">{{percent2+'%'}}</view>
+      </view>
+    </view>
+    <view class="time">截止时间：2018-02-06</view>
+    </view>
+  </view>
+  <view class="flow-item">
+    <view class="flow-item-tail"></view>
+    <view class="flow-item-content">
+    <view class="item-row">
+      <view class="horizon-line"></view> 
+      <navigator url="" class="item-title">安装</navigator>
+      <view class="circle-box">
+        <canvas class="circle" style="z-index: -99; width:50px; height:50px;" canvas-id="canvasCircle-3"></canvas>
+        <canvas class="circle" style="width:50px; height:50px;" canvas-id="canvasArcCir-3"></canvas>
+        <view class="precent">{{percent3+'%'}}</view>
+      </view>
+    </view>
+    <view class="time">截止时间：2018-02-06</view>
+    </view>
+
+  </view>
+
+ <view class="flow-item">
+    <view class="flow-item-tail"></view>
+    <view class="flow-item-content">
+    <view class="item-row">
+      <view class="horizon-line"></view> 
+      <navigator url="" class="item-title">售后</navigator>
+      <view class="circle-box">
+        <canvas class="circle" style="z-index: -99; width:50px; height:50px;" canvas-id="canvasCircle-4"></canvas>
+        <canvas class="circle" style="width:50px; height:50px;" canvas-id="canvasArcCir-4"></canvas>
+        <view class="precent">{{percent4+'%'}}</view>
+      </view>
+    </view>
+    <view class="time">截止时间：2018-02-06</view>
+    </view>
+
+  </view>
+
+
+</view>
+
+
+</view>

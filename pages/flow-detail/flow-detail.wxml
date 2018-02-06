@@ -1,0 +1,25 @@
+<view class="page page-detail">
+  <view class="weui-flex weui-flex-col">
+      <image class="weui-flex__item"  src="../../images/test.png" />
+      <navigator class="weui-flex__item">查看完整流程图</navigator>
+  </view>
+  <view class='cells'>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>编号：</text>
+      <text class='weui-flex__item'>S26-F1-16</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>名称：</text>
+      <text class='weui-flex__item'>角几</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>尺寸：</text>
+      <text class='weui-flex__item'>直径450*530</text>
+    </view>
+    <view class="weui-flex">
+      <text class='weui-flex__item first'>尺寸：</text>
+      <text class='weui-flex__item'>直径450*530</text>
+    </view>
+  </view>
+  
+</view>

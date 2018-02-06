@@ -1,0 +1,14 @@
+@import "../common/lib/weui.wxss";
+.page-detail{
+  padding: 0 20rpx;
+}
+.weui-flex-col{
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.weui-flex-col > .weui-flex__item{width: 100%;text-align: center;}
+.cells .weui-flex__item.first{text-align: right;flex: 1 0 auto;}
+.cells .weui-flex__item{flex: 3 0 auto;text-align: left;}
