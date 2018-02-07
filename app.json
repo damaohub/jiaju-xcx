@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/index/index",
     "pages/flow-detail/flow-detail",
     "pages/flow-list/flow-list",
     "pages/flow/flow",
-    "pages/index/index",
-    "pages/login/login",
-    "pages/logs/logs",
-    "pages/exception/exception"
+    "pages/exception/exception",
+    "pages/logs/logs"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,6 +1,6 @@
 <view class="page page-list">
 
-    <navigator class="weui-panel weui-panel_access">
+    <navigator url="../flow/flow" class="weui-panel weui-panel_access">
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_appmsg" >
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
@@ -21,7 +21,7 @@
             </view>
     </navigator> 
 
-    <navigator class="weui-panel weui-panel_access">
+    <navigator url="../flow/flow" class="weui-panel weui-panel_access">
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_appmsg" >
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
@@ -42,7 +42,7 @@
             </view>
     </navigator> 
 
-    <navigator class="weui-panel weui-panel_access">
+    <navigator url="../flow/flow" class="weui-panel weui-panel_access">
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_appmsg" >
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
