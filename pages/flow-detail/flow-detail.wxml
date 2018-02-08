@@ -31,8 +31,8 @@
     <view class="weui-flex">
       <text class='weui-flex__item first'>上传附件：</text>
       <view class='weui-flex__item'>
-        <button class="weui-btn mini-btn" type="primary" plain="true" size="mini">点击上传附件</button>
-        <text class="link" type="default" plain="true" size="mini">查看上传附件</text>
+        <button class="weui-btn mini-btn" type="primary" plain="true" size="mini" bindtap="chooseImage">点击上传附件</button>
+        <text class="link" bindtap="previewImage" >查看上传附件</text>
       </view>
     </view>
     <view class="weui-flex">

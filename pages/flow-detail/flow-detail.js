@@ -5,12 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
+    files: [],
     accounts: ["异常", "正常", "延期"],
     accountIndex: 0,
     checkboxItems: [
       { name: '前置条件一', value: '0', checked: true },
       { name: '前置条件二', value: '1' }
     ],
+  },
+  chooseImage: function (e) {
+    var that = this;
+    wx.chooseImage({
+      sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+      sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+      success: function (res) {
+        // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
+        that.setData({
+          files: that.data.files.concat(res.tempFilePaths)
+        });
+      }
+    })
+  },
+  previewImage: function (e) {
+    wx.previewImage({
+      urls: this.data.files // 需要预览的图片http链接列表
+    })
   },
   bindAccountChange: function (e) {
     console.log('picker account 发生选择改变，携带值为', e.detail.value);
